@@ -19,4 +19,8 @@ set history=50
 "在vim窗口右下角显示当前光标位置坐标
 set ruler
 
+"启用文件类型检测功能
 filetype plugin indent on
+
+"使用缩进文件
+autocmd FileType text setlocal textwidth=78
